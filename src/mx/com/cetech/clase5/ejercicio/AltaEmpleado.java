@@ -6,12 +6,12 @@ public class AltaEmpleado {
 	public static void main(String [] args){
 		
 		// Creando un empleado
-		Empleado alex = new Empleado();
 		// new: palabra reservada para la creación de un nuevo objeto.
 		// Empleado => Clase
 		// alex => variable
 		// new
 		// Empleado() => contructor, permiete crear objetos
+		Empleado alex = new Empleado();
 		alex.setEdad(25);
 		alex.setId(1);
 		alex.setNombre("Alex");
